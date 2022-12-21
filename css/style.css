@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #efefef;
+    line-height: 1.5;
+}
+a{
+    text-decoration: none;
+}
+.kigali{
+    width: 1100px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.Milk-hub{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.card{
+    flex: 1 1 18rem;
+    margin: 10px 20px;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0 0 15px rgba(0,0,0,0.64);
+    padding: 10px 20px;
+    align-self: normal;
+    display: flex;
+    flex-direction: column;
+}
+.card img{
+    max-width: 200px;
+}
+.card h3{
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+.card p{
+    margin-bottom: 10px;
+}
+
+.card .btn{
+    display: inline-block;
+    margin-top: auto;
+    font-size: 1.2rem;
+    background-color: green;
+    color:#fff;
+    padding: 10px 20px;
+    text-align: center;
+    color: #fff;
+    border-radius: 5px;  
+}

@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: #efefef;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    margin: 10px;
+    flex-wrap: wrap;
+    padding: 25px;
+ 
+}
+.container h1{
+    font-size: 38px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+.container h2{
+    font-size: 28px;
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 15px;
+}
+
+.container .logo{
+    width: 300px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+}
+.container p{
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.prices{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.inyange{
+    flex: 1 1 16rem;
+    margin: 10px 20px;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0 0 15px rgba(0,0,0,0.24);
+    padding: 10px 20px;
+    align-self: normal;
+    display: flex;
+    flex-direction: column;
+}
+.feedback h2{
+    text-align: center;
+    margin-top: 15px;
+    text-decoration: wavy;
+}
+.cmnt{
+    width: 600px;
+    height: 50px;
+    margin-top: 15px;
+    background-color: transparent;
+    font-size: 16px;
+    border: 2px solid #e39d11;
+    border-radius: 5px;
+    color: #333;
+    float: left;
+    padding: 10px;
+    cursor: pointer;
+}
+.srch{
+    background-color: #e39d11;
+    width: 150px;
+    height: 50px;
+    margin-top: 15px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 2px solid #e39d11;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.btn:focus{
+    outline: none;
+}
+.srch:focus{
+    outline: none;
+}
+::placeholder{
+    text-align: center;
+    font-size: 16px;
+}
+
+.rating {
+    margin-top: 5%;
+    border: 1px #999 solid;
+    display: flex;
+    font-size:0;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    background: linear-gradient(to right, #f00 , #ff0, #0f0)
+}
+.rating input {
+    display: none
+}
+.rating label {
+    display: flex;
+    width: 80px;
+    height: 80px;
+    font-size: 24px;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    color: #000;
+  cursor: pointer;
+}
+.rating label {
+    border-left: 1px #999 solid;
+    transition: .3s;
+}
+.rating input[type='radio']:hover~label,
+input[type='radio']:checked~label{
+    background: none;
+    color: #fff;
+}
+
